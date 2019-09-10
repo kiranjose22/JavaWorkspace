@@ -1,0 +1,8 @@
+package com.cognizant;
+
+public class Vehicle {
+	
+	private int chasisNumber;
+	private String vehicleName;
+
+}

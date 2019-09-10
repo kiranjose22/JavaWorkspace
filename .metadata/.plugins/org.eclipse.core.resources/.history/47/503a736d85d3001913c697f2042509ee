@@ -1,0 +1,10 @@
+package com.cognizant;
+
+public class TwoWheeler extends Vehicle {
+
+	public TwoWheeler(int chasisNumber, String vehicleName) {
+		super(chasisNumber, vehicleName);
+		// TODO Auto-generated constructor stub
+	}
+
+}

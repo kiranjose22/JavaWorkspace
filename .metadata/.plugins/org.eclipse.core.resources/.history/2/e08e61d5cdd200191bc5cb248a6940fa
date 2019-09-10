@@ -1,0 +1,31 @@
+package com.cognizant;
+
+import org.hibernate.Transaction;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.classic.Session;
+
+public class TestHibernate {
+
+	public static void main(String[] args) {
+		
+//		UserDetails ud = new UserDetails(103, "thirdUser","address1",12345);
+		ProductDetails pd = new ProductDetails(7, "p7", 7, "b7", 700, 70, 70, "available");
+		Configuration cfg = new Configuration();
+		cfg.configure("Configuration.xml");
+		SessionFactory sf = cfg.buildSessionFactory();
+		Session s = sf.openSession();
+		Transaction t= s.getTransaction();
+		t.begin();
+		
+		s.save(pd);
+		t.commit();
+		s.close();
+		System.out.println("Executed Code!!");
+		
+		
+
+	}
+
+}

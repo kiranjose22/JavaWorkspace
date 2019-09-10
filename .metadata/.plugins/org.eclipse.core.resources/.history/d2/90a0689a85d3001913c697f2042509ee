@@ -1,0 +1,28 @@
+package com.cognizant;
+
+public class Vehicle {
+	
+	private int chasisNumber;
+	private String vehicleName;
+	
+	public Vehicle(int chasisNumber, String vehicleName) {
+		super();
+		this.chasisNumber = chasisNumber;
+		this.vehicleName = vehicleName;
+	}
+	public int getChasisNumber() {
+		return chasisNumber;
+	}
+	public void setChasisNumber(int chasisNumber) {
+		this.chasisNumber = chasisNumber;
+	}
+	public String getVehicleName() {
+		return vehicleName;
+	}
+	public void setVehicleName(String vehicleName) {
+		this.vehicleName = vehicleName;
+	}
+	
+	
+
+}
