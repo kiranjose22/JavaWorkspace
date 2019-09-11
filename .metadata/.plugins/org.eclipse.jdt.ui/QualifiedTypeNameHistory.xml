@@ -10,13 +10,22 @@
 <fullyQualifiedTypeName name="com.cognizant.Book"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.sql.Date"/>
-<fullyQualifiedTypeName name="com.cognizant.UserDetails"/>
 <fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
 <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
 <fullyQualifiedTypeName name="org.hibernate.classic.Session"/>
 <fullyQualifiedTypeName name="javax.transaction.Transaction"/>
-<fullyQualifiedTypeName name="javax.persistence.Entity"/>
-<fullyQualifiedTypeName name="javax.persistence.Id"/>
 <fullyQualifiedTypeName name="javax.persistence.Transient"/>
 <fullyQualifiedTypeName name="com.cognizant.ProductDetails"/>
+<fullyQualifiedTypeName name="com.cognizant.Vehicle"/>
+<fullyQualifiedTypeName name="com.cognizant.TwoWheeler"/>
+<fullyQualifiedTypeName name="com.cognizant.FourWheeler"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="com.cognizant.Project"/>
+<fullyQualifiedTypeName name="com.cognizant.Module"/>
+<fullyQualifiedTypeName name="com.cognizant.Task"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="javax.persistence.Embeddable"/>
+<fullyQualifiedTypeName name="javax.persistence.Embedded"/>
+<fullyQualifiedTypeName name="com.cognizant.Address"/>
+<fullyQualifiedTypeName name="com.cognizant.UserDetails"/>
 </qualifiedTypeNameHistroy>

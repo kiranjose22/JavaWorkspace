@@ -13,5 +13,6 @@
 	<classpathentry kind="lib" path="C:/Users/Training/Downloads/hibernate-distribution-3.6.10.Final/lib/required/jta-1.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Training/Downloads/hibernate-distribution-3.6.10.Final/lib/required/slf4j-api-1.6.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Training/Downloads/jdbc-oracle.jar"/>
+	<classpathentry kind="con" path="org.eclipse.datatools.connectivity.jdt.DRIVERLIBRARY/MySQL JDBC Driver"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
