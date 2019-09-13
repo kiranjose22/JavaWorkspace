@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\Users\Training\Downloads"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\Users\Training\Downloads\hibernate-distribution-3.6.10.Final\lib\required"/>
 	<item key="UserLibraryLoadSaveDialog.size" value="480,510"/>
 	<section name="JavaElementSearchActions">
 	</section>
@@ -63,7 +63,7 @@
 		<item key="pageIndex" value="2"/>
 	</section>
 	<section name="ClasspathContainerSelectionPage">
-		<item key="index" value="3"/>
+		<item key="index" value="0"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
