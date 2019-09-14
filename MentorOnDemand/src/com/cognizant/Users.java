@@ -10,17 +10,31 @@ public class Users {
 	private String userMail;
 	private String userName;
 	private String password;
+	private String status;
 	private String role;
-	
-	
 
-	public Users(String userMail, String userName, String password, String role) {
+	public Users(String userMail, String userName, String password, String status, String role) {
 		super();
 		this.userMail = userMail;
 		this.userName = userName;
 		this.password = password;
+		this.status = status;
 		this.role = role;
 	}
+
+	
+	
+	public String getStatus() {
+		return status;
+	}
+
+
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+
 
 	public String getUserMail() {
 		return userMail;
