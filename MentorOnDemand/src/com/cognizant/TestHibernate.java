@@ -18,8 +18,8 @@ public class TestHibernate {
 //		Module m = new Module(2, "project1", "module1");
 //		Task ta = new Task(3, "project1", "task1");
 //		Address a = new Address("palakkad", "kerala", 678007);
-		Users ud = new Users("a@a.com","a","a","unblocked","trainee");
-		Technologies tech = new Technologies("1", "java");
+		Users ud = new Users("a@a.com","a","a","blocked","trainee");
+		Technologies tech = new Technologies("1", "mysql(update)");
 		
 		
 		
